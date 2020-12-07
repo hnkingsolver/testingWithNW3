@@ -1,12 +1,12 @@
 module.exports = {
-    // "set and clear text": function(browser) {
-    //     browser.url("http://tutorials.actionqa.com/yt/nw/basic/text-input.html")
-    //     browser.setValue("#text-input", "Nightwatch is cool yeeepoooorunie")
-    //     browser.pause(2000)
-    //     browser.clearValue("#text-input")
-    //     browser.pause(2000)
-    //     browser.end()
-    // },
+    "set and clear text": function(browser) {
+        browser.url("http://tutorials.actionqa.com/yt/nw/basic/text-input.html")
+        browser.setValue("#text-input", "Nightwatch is cool yeeepoooorunie")
+        browser.pause(2000)
+        browser.clearValue("#text-input")
+        browser.pause(2000)
+        browser.end()
+    },
     "using keys":function(browser) {
         browser.url("http://tutorials.actionqa.com/yt/nw/basic/text-input.html")
         //same thing as setValue(), bit we have to use browser.click() then browser.keys()
