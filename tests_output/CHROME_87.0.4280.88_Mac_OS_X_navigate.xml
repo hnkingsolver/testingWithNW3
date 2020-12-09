@@ -5,9 +5,9 @@
 
   <testsuite name="navigate"
     errors="0" failures="0" hostname="" id="" package="navigate" skipped="0"
-    tests="1" time="4.219" timestamp="">
+    tests="1" time="4.336" timestamp="">
   
-    <testcase name="navigate method" classname="navigate" time="4.219" assertions="0">
+    <testcase name="navigate method" classname="navigate" time="4.336" assertions="0">
     </testcase>
   
 
